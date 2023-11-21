@@ -1,0 +1,24 @@
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main()
+{
+    float luasAlas, tinggiLimas, volumeLimas;
+
+    cout << "PROGRAM HITUNG VOLUME LIMAS" << endl;
+    cout << "===========================" << endl;
+
+    cout << "Masukkan Luas Alas = " ;
+    cin >> luasAlas;
+    cout << "Masukkan Tinggi    = " ;
+    cin >> tinggiLimas;
+
+    volumeLimas = (1.0/3) * luasAlas * tinggiLimas;
+
+    cout << "Hasil Volume Limas = " << volumeLimas << endl;
+    cout << "===========================" << endl;
+    cout << "SELESAI" << endl;
+    return 0;
+}
